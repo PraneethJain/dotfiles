@@ -1,13 +1,8 @@
 {
-    // -------------------------------------------------------------------------
-    // Global configuration
-    // -------------------------------------------------------------------------
-
     "layer": "top",
 
     "position": "top",
 
-    //"height": 20,
 
     "margin-left": 10,
     "margin-bottom": 0,
@@ -18,29 +13,19 @@
     "modules-left": [
         "hyprland/workspaces",
         "hyprland/submap",
-        "temperature",
-        //"idle_inhibitor",
-        //"mpd"
         "custom/media"
     ],
     "modules-center": [
         "clock#date"
     ],
     "modules-right": [
-        "network",
         "backlight",
-        "custom/storage",
         "memory",
         "cpu",
         "battery",
         "wireplumber",
         "tray"
     ],
-
-
-    // -------------------------------------------------------------------------
-    // Modules
-    // -------------------------------------------------------------------------
 
     "custom/sp1": {
         "format": " | ",
@@ -145,8 +130,7 @@
         "format": "{icon} {percent}%",
         "format-alt": "{percent}% {icon}",
         "format-alt-click": "click-right",
-        //"format-icons": ["", ""],
-        "format-icons": ["", ""],
+        "format-icons": [" ", " "],
         "on-scroll-down": "brightnessctl s 5%-",
         "on-scroll-up": "brightnessctl s +5%"
     },
