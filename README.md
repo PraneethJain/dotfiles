@@ -1,5 +1,6 @@
 # Hyprland dotfiles
 
+## Defaults
 
 <div align="center">
 
@@ -10,34 +11,55 @@
 | Screenshot      | Hyprshot        |
 | Wallapaper      | Hyprpaper       |
 | Lock Screen     | Hyprlock        |
+| Bar             | Waybar          |
 | Editor          | Neovim          |
 | Notifications   | Mako            |
 | Terminal        | Alacritty       |
 | Browser         | Firefox         |
+| PDF Viewer      | Zathura         |
 
 </div>
 
 ## Installation 
 
-Following essential packaes are reqired 
+### Essentials
 ```bash
-hyprland hyprshot hyprlock mako alacritty stow
-
+stow
+hyprland
+hyprshot
+hyprlock
+mako
+rofi
+rofi-emoji
+ttf-jetbrains-mono-nerd
+brightnessctl
+waybar
+networkmanager
+networkmanager-manager-applet
+blueman
+playerctl
+pamixer
 ```
 
-
-following packages are required as they are used in the config : 
-``` bash
-rofi rofi-emoji ttf-jetbrains-mono-nerd brightnessctl waybar networkmanager blueman playerctl pamixer neovim firefox
+### Optionals
+> Note that the keybindings launch these defaults. To change, edit `hypr/hyprland.conf`
+```bash
+firefox
+neovim
+zathura
+spotify
+vscode
 ```
 
-For config, we are using stow 
+To apply the configuration
 ```bash
-git clone https://github.com/Gopalkataria/dotfiles
+git clone https://github.com/PraneethJain/dotfiles
 cd dotfiles
-stow .config --targe ~/.config/
+stow .config --target ~/.config/
 ```
-if any files already exist, just take a backup and remove them or remove them from the .config directory in the repo you cloned 
+if any files already exist either
+- Rename/move it from `~/.config` for this config to apply
+- Rename/move it from `dotfiles` for your original config to apply
 
 
 ## Screenshots 
