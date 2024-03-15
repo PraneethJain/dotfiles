@@ -24,31 +24,13 @@
 
 ### Essentials
 ```bash
-stow
-hyprland
-hyprshot
-hyprlock
-mako
-rofi
-rofi-emoji
-ttf-jetbrains-mono-nerd
-brightnessctl
-waybar
-networkmanager
-networkmanager-manager-applet
-blueman
-playerctl
-pamixer
+stow hyprland hyprshot hyprlock mako rofi rofi-emoji ttf-jetbrains-mono-nerd brightnessctl waybar networkmanager networkmanager-manager-applet blueman playerctl pamixer
 ```
 
 ### Optionals
 > Note that the keybindings launch these defaults. To change, edit `hypr/hyprland.conf`
 ```bash
-firefox
-neovim
-zathura
-spotify
-vscode
+firefox neovim zathura spotify vscode
 ```
 
 To apply the configuration
