@@ -1,0 +1,36 @@
+{
+  "plugins": {
+    "catppuccin": {
+      "rev": "af58927",
+      "src": "https://github.com/catppuccin/nvim.git"
+    },
+    "fasm.vim": {
+      "rev": "6eabe66b8527cc8fae6671ec61056cbc81a5fa95",
+      "src": "https://github.com/fedorenchik/fasm.vim"
+    },
+    "image.nvim": {
+      "rev": "da2be65c153ba15a14a342b05591652a6df70d58",
+      "src": "https://github.com/3rd/image.nvim"
+    },
+    "mini.completion": {
+      "rev": "0cb66df",
+      "src": "https://github.com/nvim-mini/mini.completion"
+    },
+    "mini.icons": {
+      "rev": "2847986",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "mini.pairs": {
+      "rev": "b7fde3719340946feb75017ef9d75edebdeb0566",
+      "src": "https://github.com/nvim-mini/mini.pairs"
+    },
+    "mini.pick": {
+      "rev": "96ee37d",
+      "src": "https://github.com/nvim-mini/mini.pick"
+    },
+    "minipick": {
+      "rev": "96ee37d",
+      "src": "https://github.com/nvim-mini/mini.pick"
+    }
+  }
+}

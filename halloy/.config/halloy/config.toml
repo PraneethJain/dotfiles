@@ -1,0 +1,22 @@
+# Halloy config.
+#
+# For a complete list of available options,
+# please visit https://halloy.chat/configuration.html
+
+[servers.liberachat]
+nickname = "bananapants87"
+nick_password = "youthought"
+server = "irc.libera.chat"
+channels = ["#halloy", "#permacomputing", "#linux", "#libera", "##rust", "#lobsters", "#emacs", "#c", "##programming", "#git", "#freebsd", "#postgresql", "#vim", "#docker", "#neovim", "#voidlinux", "#datahoarder", "#mpv", "#bash", "##anime"]
+
+[actions.buffer]
+click_channel_name = "replace-pane"
+click_highlight = "replace-pane"
+click_username = "replace-pane"
+local = "replace-pane"
+message_channel = "replace-pane"
+message_user = "replace-pane"
+
+[actions.sidebar]
+buffer = "replace-pane"
+

@@ -1,0 +1,105 @@
+clear
+ls
+ls -l
+clear
+ls
+vim ok.txt
+vim
+pwd
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+export def create_left_prompt [] {<\n>    let path_segment = if (is-admin) {<\n>        $"(ansi red_bold)($env.PWD)"<\n>    } else {<\n>        $"(ansi green_bold)($env.PWD)"<\n>    }<\n>    let duration_segment = do {<\n>        let duration_secs = ($env.CMD_DURATION_MS | into int) / 1000<\n>        if ($duration_secs >= 5) {<\n>            $"(ansi yellow_bold)($duration_secs | math round | into string | append "sec" | str join | into duration) "<\n>        } else {<\n>            ""<\n>        }<\n>    }<\n>    let exit_code_segment = if ($env.LAST_EXIT_CODE == 0) {<\n>        ""<\n>    } else {<\n>        $"(ansi red_bold)($env.LAST_EXIT_CODE) "<\n>    }<\n><\n>    [$duration_segment, $exit_code_segment, $path_segment] | str join<\n>}
+create_left_prompt 
+clear
+ls
+clear
+xbps-query -Rs pokemon-colorscri
+xbps-query -Rs colorscript
+z src/software/
+$nu.env_path
+$nu.env-path
+vim $nu.env-path
+vim $nu.config-path
+exit
+z
+ls
+z ~/src/software/
+clear
+ls
+clear
+ls
+ls | limt 20
+ls | limit 20
+ls | head 20
+ls | top 20
+ls | top
+ls | where size > 20
+ls | where size > 20mbn
+ls | where size > 20mb
+ls | where size > 10mb
+ls | where size > 1mb
+ls | sort
+ls | sort-by size
+ls | sort-by size | reverse
+vim bruh.py
+rm bruh.py
+clearl
+clear
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git<\n>
+cd pokemon-colorscripts/
+clear
+ls
+sudo ./install.sh
+ls
+pokemon-colorscripts 
+pokemon-colorscripts -r
+pokemon-colorscripts -r --no-title
+pokemon-colorscripts -br --no-title
+pokemon-colorscripts -r --no-title
+$nu.config-path
+vim $nu.config-path
+exit
+clear
+config nu
+EDITOR=vim
+export EDITOR=vim
+set EDITOR=vim
+set EDITOR vim
+$env.config.buffer_editor = "vim"
+config nu
+exit
+clear
+xeit
+exit
+clea
+ls
+clear
+ls
+clear
+exit
+clear
+ls -l
+clear
+exit
+clear
+ls -l
+clear
+exit
+clear
+ls -l
+clear
+xbps-query -Rs colorscript
+vim $nu.config-path
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+exit
