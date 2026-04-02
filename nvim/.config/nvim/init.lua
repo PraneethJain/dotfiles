@@ -19,6 +19,8 @@ vim.pack.add {
 	{ src = "https://github.com/nvim-mini/mini.icons" },
 	{ src = "https://github.com/nvim-mini/mini.pick" },
 	{ src = "https://github.com/nvim-mini/mini.completion" },
+    { src = "https://github.com/nvim-lua/plenary.nvim" }, -- required by lean.nvim
+    { src = "https://github.com/Julian/lean.nvim" },
 	{ src = "https://github.com/catppuccin/nvim.git",      name = "catppuccin" },
 }
 
@@ -38,6 +40,10 @@ local imap_expr = function(lhs, rhs)
 end
 imap_expr('<Tab>',   [[pumvisible() ? "\<C-n>" : "\<Tab>"]])
 imap_expr('<S-Tab>', [[pumvisible() ? "\<C-p>" : "\<S-Tab>"]])
+
+require("lean").setup {
+    mappings = true
+}
 
 require("catppuccin").setup {
 	flavour = "mocha",
